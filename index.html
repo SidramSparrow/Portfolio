@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+    
+</head>
+
+<body>
+    <header>
+        <nav class="navbar bg-dark text-light p-2" >
+            <div class="nav-item">
+                <a class="nav-link" href="#portfolio"><h3 class="nav-logo text-light">Portfolio</h3></a>
+            </div>
+            <a class="navbar-toggle-icon" id="navbar-toggle-icon" href="#" onclick="toggleNav()">☰</a>
+            <ul id="nav" class="nav">
+                <li class="nav-item ">
+                    <a class=" nav-link text-light" href="#" onclick="document.getElementById('profile').style.display='block'">Profile</a>
+                </li>
+                <li class="nav-item ">
+                    <a class=" nav-link text-light" href="#" onclick="document.getElementById('education').style.display='block'">Education</a>
+                </li>
+                <li class="nav-item ">
+                    <a class=" nav-link text-light" onclick="document.getElementById('Skills').style.display='block'" href="#">Skills</a>
+                </li>
+                <li class="nav-item ">
+                    <a class=" nav-link text-light" onclick="document.getElementById('Expirience').style.display='block'" href="#">Expirience</a>
+                </li>
+                
+                <li class="nav-item ">
+                    <a class=" nav-link text-light" onclick="document.getElementById('collegedetails').style.display='block'" href="#">College Details</a>
+                </li>
+                <li class="nav-item ">
+                    <a class=" nav-link text-light" onclick="document.getElementById('gallary').style.display='block'" href="#">Certificates Gallary</a>
+                </li>
+                <li class="nav-item ">
+                    <a class=" nav-link text-light" onclick="document.getElementById('projects').style.display='block'" href="#">Projects</a>
+                </li>
+                
+            </ul>
+            <div id="Contact"  class="nav-item"><p>Contact : <br> <b>9972940381</b></p></div>
+            
+        </nav>
+
+    </header>
+
+    <main>
+        <!-- <section class="container-fluid w-100 section_1 bg-dark" id="section_1">
+            <div class="container-item bg-secondary w-100 ">
+                <div></div>
+        </section> -->
+        <!-- welcome to website -->
+        <div class="container-fluid">
+            <div class="container-item-5">
+                <div class="card  welcome-card">
+                    <div class="card-header">
+                        <h1 class=" welcome">Welcome To My Portfolio</h2>
+                    </div>
+                    <div class="card-main">
+                        <p class=" welcome-main p-2">This portfolio is Created By me . To show off my code learning.</p>
+                    </div>
+                    <div class="card-footer text-center">
+                        <p>this port folio containes HTML , CSS , BOOTSTRAP and JAVASCRIPT</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- slider -->
+        <div id="profile" class="container-fluid p-4">
+            <span class="close rounded-circle bg-dark text-light text-center " onclick="document.getElementById('profile').style.display='none'">&times;</span>
+           <div class="container">
+                
+                <div class="container-item">
+                    <h1 class="text-center font-weight-bold p-3">Profile</h1>
+                    <div class="container-image text-center">
+                        <img id="myImg" src="myImg.jpg" class="rounded-circle" style="">
+                        <h1 id="name-sid" class="text-center p-1 display-4" style="text-shadow: 2px 4px 3px grey;"><b>SIDRAM S B</b></h1>
+                    </div>
+                </div>
+                <div class="container-item-2">
+                    <table id="profile-details">
+                        <tr class="row">
+                            <th class=" col-6"><b>Name:</b></th>
+                            <td class=" col-6">SIDRAM S B</td>
+                        </tr>
+                        <tr class="row">
+                            <th class=" col-6"><b>Father Name:</b></th>
+                            <td class=" col-6">SUBHASHCHANDRA S B</td>
+                        </tr>
+                        <tr class="row">
+                            <th class=" col-6"><b>Mother Name:</b></th>
+                            <td class=" col-6">ANJANA DEVI</td>
+                        </tr>
+                        <tr class="row">
+                            <th class=" col-6"><b>Phone number:</b></th>
+                            <td class=" col-6">9972940381</td>
+                        </tr>
+                        <tr class="row">
+                            <th class=" col-6"><b>Email-id:</b></th>
+                            <td class=" col-6">bajantrisidram13@gmail.com</td>
+                        </tr>
+                        <tr class="row">
+                            <th class=" col-6"><b>AGE & GENDER:</b></th>
+                            <td class=" col-6">22 M</td>
+                        </tr>
+                        <tr class="row">
+                            <th class=" col-6" rowspan="2"><b>Address:</b></th>
+                            <td class=" col-6">H no : 345 , 15th B Cross , 2nd Stage, 2nd Phase, West of cord , Mahalakshmi Layout, Bengaluru -560086</td>
+                        </tr>
+                    </table>
+                </div>
+                
+           </div>
+           <div class="container-button">
+               <button type="close" class="closebtn btn-success w-100 " onclick="document.getElementById('profile').style.display='none'">close</button>
+           </div>
+        </div>
+        <div id="education" class="container-fluid p-5">
+            <span class="close rounded-circle bg-dark text-light text-center " onclick="document.getElementById('education').style.display='none'">&times;</span>
+            <h1 id="education-logo" class="display-4" style="padding-left: 50px; padding-bottom: 0px; ">EDUCATION</h1>
+            <div class="container text-dark">
+                <div class="card ">
+                    <div class="card-header">
+                        <h2 class="font-weight-bold">
+                            1] LKG & UKG (2 years)
+                        </h2>
+                    </div>
+                    <div class="card-main">
+                        <p class="h2">New Nobel preSchool , Kalaburgi</p>
+                    </div>
+                    <div class="card-footer">
+                        <p><b>Address</b>: 8RHH+383, Khuba Plot, Brhampur, Kalaburagi, Karnataka 585105</p>
+                        <P class="completed">-: Completed :-</P>
+                    </div>
+                </div><br>
+                <div class="card">
+                    <div class="card-header">
+                        <h2 class="font-weight-bold">
+                            2] 1st std to SSLC (10 years)
+                        </h2>
+                    </div>
+                    <div class="card-main">
+                        <p class="h2"> ST.Mary School, Kalaburgi</p>
+                    </div>
+                    <div class="card-footer">
+                        <p><b>Address</b>: 8RHH+383, Khuba Plot, Brhampur, Kalaburagi, Karnataka 585105</p>
+                        <P class="completed">-: Completed :-</P>
+                    </div>
+                    
+                </div><br>
+                <div class="card">
+                    <div class="card-header">
+                        <h2 class="font-weight-bold">
+                            3] 1st PUC & 2nd PUC (2 years)
+                        </h2>
+                    </div>
+                    <div class="card-main">
+                        <p class="h2"> SGN PU College , Kalaburgi</p>
+                    </div>
+                    <div class="card-footer">
+                        <p><b>Address</b>: 8VM2+F2Q, Pragati Colony, Kalaburagi, Karnataka 585105</p>
+                        <P class="completed">-: Completed :-</P>
+                    </div>
+                    
+                </div><br>
+                <div class="card">
+                    <div class="card-header">
+                        <h2 class="font-weight-bold">
+                            4] BE in CSE (4 years)
+                        </h2>
+                    </div>
+                    <div class="card-main">
+                        <p class="h2"> RGIT College ,Kalaburgi</p>
+                    </div>
+                    <div class="card-footer">
+                        <p><b>Address</b>: RGC Campus P O, Chola Nagar, RT Nagar, Bengaluru, Karnataka 560032</p>
+                        <P class="completed">-: Completing (7th sem) :-</P>
+                    </div>
+                    
+                </div><br>
+            </div>
+            <div class="container-button">
+               <button type="close" class="closebtn btn-success w-100 " onclick="document.getElementById('education').style.display='none'">close</button>
+           </div>
+        </div>
+        <div id="Skills" class="container-fluid ">
+            <span class="close rounded-circle bg-dark text-light text-center " onclick="document.getElementById('Skills').style.display='none'">&times;</span>
+            <h1 id="skills-h1" class="display-4 text-center text-light text-bold" style="padding-left: 50px; padding-bottom: 50px; ">Skills</h1>
+            <div class="container-skills text-dark">
+                <div class="card" >
+                    <div class="card-header">
+                        <h5 class="card-title">Html</h5>
+                    </div>
+                    <div class="card-body">
+                        
+                        <p class="card-text">
+                              Source from<br>
+                            1. Apna college Youtube Channal (Self studied).<br>
+                            2. Rgit college (For Exams on Web Technology). <br>
+                            3. Internship Program (at Leading Minds).<br>
+                            4. Internship Program (at Take It Easy Enginners).<br>
+                            5. W3Schools <br>
+                        </p>
+                    </div>
+                </div>
+                <div class="card" >
+                    <div class="card-header">
+                        <h5 class="card-title">CSS</h5>
+                    </div>
+                    <div class="card-body">
+                        
+                        <p class="card-text">
+                              Source from<br>
+                            1. Apna college Youtube Channal (Self studied).<br>
+                            2. Rgit college (For Exams on Web Technology). <br>
+                            3. Internship Program (at Leading Minds).<br>
+                            4. Internship Program (at Take It Easy Enginners).<br>
+                            5. W3Schools <br>
+                        </p>
+                    </div>
+                </div>
+                <div class="card" >
+                    <div class="card-header">
+                        <h5 class="card-title">JAVASCRIPT</h5>
+                    </div>
+                    <div class="card-body">
+                        
+                        <p class="card-text">
+                              Source from<br>
+                            1. Apna college Youtube Channal (Self studied).<br>
+                            2. Rgit college (For Exams on Web Technology). <br>
+                            3. Internship Program (at Leading Minds).<br>
+                            4. Internship Program (at Take It Easy Enginners).<br>
+                            5. W3Schools <br>
+                        </p>
+                    </div>
+                </div>
+                <div class="card" >
+                    <div class="card-header">
+                        <h5 class="card-title">BOOTSTARP</h5>
+                    </div>
+                    <div class="card-body">
+                        
+                        <p class="card-text">
+                              Source from<br>
+                            1. Apna college Youtube Channal (Self studied).<br>
+                            2. Internship Program (at Leading Minds).<br>
+                            3. W3Schools <br>
+                            4. Bootstrap Site <br>
+                        </p>
+                    </div>
+                </div>
+                
+            </div>
+            <div id="for-tag" class="card mb-5">
+                <p class="for-tag text-center"> <b>For </b>Front-End Web Development</p>
+            </div>
+            <div class="container-skills text-dark">
+                <div class="card" >
+                    <div class="card-header">
+                        <h5 class="card-title">Php</h5>
+                    </div>
+                    <div class="card-body">
+                        
+                        <p class="card-text">
+                              Source from<br>
+                            1. Apna college Youtube Channal (Self studied).<br>
+                            2. Rgit college (For Exams on Web Technology). <br>
+                            3. Internship Program (at Leading Minds).<br>
+                            4. Internship Program (at Take It Easy Enginners).<br>
+                            5. W3Schools <br>
+                        </p>
+                    </div>
+                </div>
+                <div class="card" >
+                    <div class="card-header">
+                        <h5 class="card-title">Sql</h5>
+                    </div>
+                    <div class="card-body">
+                        
+                        <p class="card-text">
+                              Source from<br>
+                            1. Apna college Youtube Channal (Self studied).<br>
+                            2. Rgit college (For Exams on Web Technology). <br>
+                            3. Internship Program (at Leading Minds).<br>
+                            4. Internship Program (at Take It Easy Enginners).<br>
+                            5. W3Schools <br>
+                        </p>
+                    </div>
+                </div>
+                <div class="card" >
+                    <div class="card-header">
+                        <h5 class="card-title">JAVASCRIPT</h5>
+                    </div>
+                    <div class="card-body">
+                        
+                        <p class="card-text">
+                              Source from<br>
+                            1. Apna college Youtube Channal (Self studied).<br>
+                            2. Rgit college (For Exams on Web Technology). <br>
+                            3. Internship Program (at Leading Minds).<br>
+                            4. Internship Program (at Take It Easy Enginners).<br>
+                            5. W3Schools <br>
+                        </p>
+                    </div>
+                </div>
+                <div class="card" style="margin-left: 25px;" >
+                    <div class="card-header">
+                        <h5 class="card-title">Xampp</h5>
+                    </div>
+                    <div class="card-body">
+                        
+                        <p class="card-text">
+                              Source from<br>
+                            
+                            1. Internship Program (at Leading Minds).      <br>
+                            2. W3Schools <br>
+                            
+                        </p>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="card mb-5">
+                <p id="for-tag" class="for-tag text-center"> <b>For </b>Connecting Languages</p>
+            </div>
+            
+            <div class="container-button">
+                <button type="close" class="closebtn btn-success w-100 " onclick="document.getElementById('Skills').style.display='none'">close</button>
+            </div>
+        </div>
+        <div id="Expirience" class="container-fluid p-5">
+            <span class="close rounded-circle bg-dark text-light text-center " onclick="document.getElementById('Expirience').style.display='none'">&times;</span>
+            <h1 class="text-center mb-5">Expiriences</h1>
+            <div id="container-Expirience" class=" container text-dark">
+                <h3 class="h3-container-titles text-light">* Internship Programs * </h3><br>
+                
+                <div class="container-item-expirience  bg-light m-5">
+                    
+                    <div class="container-item-head bg-primary">
+                        <img class=" h-100 w-100" src="logo leadingminds.PNG" alt="image for Leaing minds">
+                    </div>
+                    <div class="container-item-body  m-3">
+                        <h3 class="leadingminds-cn">Leading Minds</h3>
+                        <h4 class="leadingminds-h4"><b>Program Name :</b> Internship Progrsm</h4>
+                        <p class="leadingminds-p1"><b>Duration :</b> Two Months <b>Start date :</b>May 1 2023 <b> End date :</b> july 1 2023 </p>
+                        <p class="leadingminds-p2"><b>Skills Gained :</b> Web Development & web Designing</p>
+                        <p class="leadingminds-p3"><b>Comments :</b> It was good working with the Instructor and team</p>
+                        <p class="leadingminds-p4"><b>Certificates Link :</b><a href=""> Click Here</a></p>
+                    </div>
+                </div>
+                <div class="container-item-expirience bg-light m-5">
+                    
+                    <div class="container-item-head bg-primary">
+                        <img class=" h-100 w-100" src="logo varcons.PNG" alt="image for Leaing minds">
+                    </div>
+                    <div class="container-item-body  m-3">
+                        <h3 class="leadingminds-cn">Varcons Technology</h3>
+                        <h4 class="leadingminds-h4"><b>Program Name :</b> Internship Progrsm</h4>
+                        <p class="leadingminds-p1"><b>Duration :</b> Two Months <b>Start date :</b>Aug 1 2023 <b> End date :</b> still Persuing </p>
+                        <p class="leadingminds-p2"><b>Skills Gaining :</b> Web Development & web Designing</p>
+                        <p class="leadingminds-p3"><b>Comments :</b> ...........</p>
+                        <p class="leadingminds-p4"><b>Certificates Link :</b><a href=""> will be provide after this program</a></p>
+                    </div>
+                </div>
+
+                <h3 class="h3-container-titles text-light">* Online Expiriences * </h3><br>
+
+                <div class="container-item-expirience  bg-light m-5">
+                    
+                    <div class="container-item-head bg-primary">
+                        <img class=" h-100 w-100" src="coursera.png" alt="image for Leaing minds">
+                    </div>
+                    <div class="container-item-body  m-3">
+                        <h3 class="leadingminds-cn">Coursera</h3>
+                        <h4 class="leadingminds-h4"><b>Program Name :</b> Web Development and FrameWorks</h4>
+                        <p class="leadingminds-p1"><b>Duration :</b> Two Months</p>
+                        <p class="leadingminds-p2"><b>Skills Gained :</b> Web Development & web Designing using Wordpress</p>
+                        <p class="leadingminds-p3"><b>Comments :</b> It was good course to gain some skills</p>
+                        <p class="leadingminds-p4"><b>Certificates Link :</b><a href=""> Click Here</a></p>
+                    </div>
+                </div>
+                <div class="container-item-expirience  bg-light m-5">
+                    
+                    <div class="container-item-head bg-primary">
+                        <img class=" h-100 w-100" src="openweaver.png" alt="image for Leaing minds">
+                    </div>
+                    <div class="container-item-body  m-3">
+                        <h3 class="leadingminds-cn">OpenWeaver</h3>
+                        <h4 class="leadingminds-h4"><b>Program Name :</b> Basics of Html and Css for Beginners</h4>
+                        <p class="leadingminds-p1"><b>Duration :</b> one Months</p>
+                        <p class="leadingminds-p2"><b>Skills Gained :</b> Front End Web Development and Application</p>
+                        <p class="leadingminds-p3"><b>Comments :</b> It was good course to gain some skills</p>
+                        <p class="leadingminds-p4"><b>Certificates Link :</b><a href=""> Click Here</a></p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="container-button">
+                <button type="close" class="closebtn btn-success w-100 " onclick="document.getElementById('Expirience').style.display='none'">close</button>
+            </div>
+        </div>
+        <div id="collegedetails" class="container-fluid p-5">
+            <span class="close rounded-circle bg-dark text-light text-center " onclick="document.getElementById('collegedetails').style.display='none'">&times;</span>
+
+            <div class="container-cd">
+                <h2 class="college-text text-center mb-5">College Details</h2>
+
+                <img class="rgit-img" src="RGIT.png" alt="">
+
+                <div class=" collegedetailes-ps">
+                    <ul style="list-style-type: circle; padding-left: 20px;">
+                        <li class="collegedetails-li"><b>College Name :</b> Rajiv Gandhi Institute Of Technology</li>
+                        <li class="collegedetails-li"><b>University Name :</b> Vishweshvaraya Technology University [ VTU ]</li>
+                        <li class="collegedetails-li"><b>USN [ University Registration Number ] :</b> 1RG20CS056</li>
+                        <li class="collegedetails-li"><b>Course :</b> Computer Science and Engineering [ CSE ]</li>
+                        <li class="collegedetails-li"><b>Year and Semester :</b> 4th Year & 7th Sem</li>
+                        <li class="collegedetails-li">
+                            <b>Location :</b> RGC Campus P O, Chola Nagar, RT Nagar, Bengaluru, Karnataka 560032 
+                            <a class="collegelink" href="https://goo.gl/maps/uzzwtjaNuTkLf45n6">click here</a>
+                        </li>
+                    </ul>
+                    
+                </div>
+            </div>
+
+            <div class="container-button">
+                <button type="close" class="closebtn btn-success w-100 " onclick="document.getElementById('collegedetails').style.display='none'">close</button>
+            </div>
+        </div>
+        <div id="gallary" class="container-fluid p-5">
+            <span class="close rounded-circle bg-dark text-light text-center " onclick="document.getElementById('gallary').style.display='none'">&times;</span>
+            <h2 class="gallary-text text-center">Certificates Gallary</h2>
+            <div class="container-gallary">
+                <div class="card card-1 d-flex text-dark ">
+                    <div class="card-header ">
+                        <img class="gallary-img-1 img-fluid" src="openweaver-certi.png" alt="">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title"><b>Company Name :</b> OpenWeaver</h5>
+                        <p class="card-text"><b>Course Type :</b> Basics of Html and Css</p>
+                    </div>
+                    <div class="card-footer text-center">
+                        &copy; OpenWeaver Certificate for Html and Css
+                    </div>
+                </div>
+                <div class="card card-2 d-flex text-dark ">
+                    <div class="card-header ">
+                        <img class="gallary-img-1 img-fluid" src="Coursera-ceti.jpg" alt="">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title"><b>Company Name :</b> Coursera</h5>
+                        <p class="card-text"><b>Course Type :</b> Web development & WordPress</p>
+                    </div>
+                    <div class="card-footer text-center">
+                        &copy; OpenWeaver Certificate for FrameWorks
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-button">
+                <button type="close" class="closebtn btn-success w-100 " onclick="document.getElementById('gallary').style.display='none'">close</button>
+            </div>
+        </div>
+        <div id="projects" class="container-fluid p-5">
+            <span class="close rounded-circle bg-dark text-light text-center " onclick="document.getElementById('projects').style.display='none'">&times;</span>
+            <h2 class="text-center">Projects</h2>
+            <div class="container-projects text-dark">
+                <div class="container-item-projects bg-light ">
+                    
+                    <div class="container-item-head bg-primary">
+                        <img class=" h-100 w-100" src="ecommerse.jfif" alt="image for Leaing minds">
+                    </div>
+                    <div class="container-item-body m-3">
+                        <h3 class="project-cn">Leading Minds</h3>
+                        <h4 class="project-h4"><b>Project Name :</b> E-commerse web site</h4>
+                        <p class="project-p1"><b>Duration :</b> 7 Days</p>
+                        <p class="project-p2"><b>Skills Used :</b> Html ,Css ,Bootstrap ,Javascript</p>
+                        <ul class="project-p3"><b>References :</b>
+                            <li><a href="https://www.w3schools.com/whatis/">@ W3School</a></li> 
+                            <li><a href="https://www.geeksforgeeks.org/web-development/">@ geeksforgeeks</a></li> 
+                        </ul>
+                        <p class="project-p4"><b>Project Link :</b><a href="https://sidramsparrow.github.io/Ecommerse/"> Click Here</a></p>
+                    </div>
+                    
+                </div>
+                <div class="container-item-projects bg-light ">
+                    
+                    <div class="container-item-head bg-primary">
+                        <img class=" h-100 w-100" src="ecommerse.jfif" alt="image for Leaing minds">
+                    </div>
+                    <div class="container-item-body m-3">
+                        <h3 class="project-cn">Leading Minds</h3>
+                        <h4 class="project-h4"><b>Project Name :</b> Emergency Health care response system</h4>
+                        <p class="project-p1"><b>Duration :</b> 7 Days</p>
+                        <p class="project-p2"><b>Skills Used :</b> Html ,Css ,Bootstrap ,Javascript</p>
+                        <ul class="project-p3"><b>References :</b>
+                            <li><a href="https://www.w3schools.com/whatis/">@ W3School</a></li> 
+                            <li><a href="https://www.geeksforgeeks.org/web-development/">@ geeksforgeeks</a></li> 
+                        </ul>
+                        <p class="project-p4"><b>Project Link :</b><a href="https://sidramsparrow.github.io/Ecommerse/"> Click Here</a></p>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="container-button">
+                <button type="close" class="closebtn btn-success w-100 " onclick="document.getElementById('projects').style.display='none'">close</button>
+            </div>
+        </div>
+    </main>
+    <footer class="footer bg-dark text-light text-center text-shadow  pb-0 mb-0
+    ">
+        <p class="mb-0 pb-0 p-4"> &copy; Sidram Portfolio</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

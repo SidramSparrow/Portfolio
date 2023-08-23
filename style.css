@@ -1,0 +1,727 @@
+.navbar{
+    padding: 100px 100px;
+    height: 100%;
+}
+
+#section1{
+    /* background-image: url("https://img.freepik.com/premium-vector/gold-frame-foliage-pattern-background-vector_53876-168643.jpg?w=826"); */
+    height: 91vh;
+    /* background-size: cover;
+    background-position: center; */
+}
+
+/* profile */
+
+
+#profile-details p{
+    font-size: 150%;
+}
+
+
+.container-item-2{
+    height: auto;
+}
+
+#profile {
+    background-image: url("back.jpg");
+    background-origin: center;
+    background-size: cover;
+    color: white;
+    display: none;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+}
+
+#profile .container-item{
+    padding-left: 50px;
+    
+}
+
+
+
+#profile button{
+    border-radius: 20px;
+}
+.container-button{
+    padding: 0 100px;
+}
+.close{
+    font-size: 50px;
+    cursor: pointer;
+}
+
+
+
+.container-item-5 .card{
+    padding: 20px;
+    margin: 50px;
+}
+.container-fluid{
+    padding: 0;
+    margin: 0;
+}
+
+/*education*/
+#education .container{
+    column-gap: px;
+    padding-bottom: 50px;
+}
+
+#education .card{
+    height: 300px;
+    margin: 100px 0 100px 0;
+}
+
+#education{
+    background-image: url("back.jpg");
+    background-origin: center;
+    background-size: cover;
+    color: white;
+    display: none;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: scroll;
+}
+
+#education::-webkit-scrollbar{
+    display: none;
+}
+
+#education h2{
+    font-size: 20px;
+}
+
+#education .h2{
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+#education button{
+    border-radius: 20px;
+}
+
+html::-webkit-scrollbar{
+    display: none;
+}
+
+.completed{
+    color: red;
+    font-weight: bolder;
+    font-size: 15px;
+    padding-left: 20px;
+    position: absolute;
+    bottom: 0;
+    
+
+}
+
+/*skils*/
+.container-skills .card{
+    width:fit-content;
+}
+
+.container-skills{
+    display: flex;
+    column-gap: 50px;
+}
+
+#Skills{
+    background-image: url("desk.jpg");
+    background-origin: center;
+    background-size: cover;
+    color: grey;
+    display: none;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: scroll;
+}
+.container-skills{
+    background-color: white;
+    border-radius: 10px 10px 0 0;
+}
+.container-skills .card{
+    border-radius: 10%;
+    box-shadow: 5px 5px 20px black;
+}
+.container-skills .for-tag{
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
+#skills-h1{
+    text-shadow: 10px 10px 2px grey;
+    font-weight: bolder;
+    font-family:sans-serif;
+    font-style:italic;
+}
+
+.card b{
+    font-weight: bold;
+    font-variant: small-caps;
+}
+#for-tag{
+    border-radius: 0 0 10px 10px;
+}
+
+/*Expirience*/
+
+#Expirience {
+    background-image: url("back.jpg");
+    background-origin: center;
+    background-size: cover;
+    color: white;
+    display: none;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: scroll;
+
+}
+.container-item-expirience{
+    display: flex;
+}
+.container-item-expirience .container-item-head{
+    width: 25%;
+}
+
+.container-item-expirience .container-item-body{
+    width: 75%;
+}
+/* .container-item-expirience{
+    height: 300px;
+} */
+
+.leadingminds-cn{
+    font-size: 40px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+.leadingminds-h4{
+    font-size: 25px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+.leadingminds-p1{
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+/* College Details */
+
+#collegedetails{
+    background-image: url("back.jpg");
+    background-origin: center;
+    background-size: cover;
+    color: white;
+    display: none;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+}
+
+.rgit-img{
+    height: 100px;
+    width: 400px;
+    
+}
+
+.collegedetailes-ps{
+    transform: translate(10%);
+    padding: 50px 50px 10px 50px;
+    font-size: 30px;
+}
+
+.collegedetails-p6{
+    padding-right: 100px;
+}
+
+.collegelink{
+    text-decoration: none;
+    color: red;
+}
+
+.collegelink:hover{
+    text-decoration: none;
+    color: Green;
+    font-weight: bolder;
+}
+
+.collegedetailes-ps li{
+    padding: 2px;
+}
+
+/*Certificates Gallary*/
+
+#gallary{
+    background-image: url("back.jpg");
+    background-origin: center;
+    background-size: cover;
+    color: white;
+    display: none;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: scroll;
+}
+
+#gallary .card-header .gallary-img-1{
+    width: 570px;
+    height: 400px;
+}
+
+#gallary .card-2{
+    float: right;
+}
+
+#gallary .card-header img:active{
+    cursor: pointer;
+    zoom: 2;
+    position: fixed;
+    left: 50px;
+    top: 10px;
+    height: 300px;
+    width: 400px;
+}
+
+/* projects */
+
+#projects{
+    background-image: url("back.jpg");
+    background-origin: center;
+    background-size: cover;
+    color: white;
+    display: none;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: scroll;
+}
+
+.project-cn{
+    font-size: 40px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.project-h4{
+    font-size: 25px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+.project-p1{
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+.project-p3{
+    padding-left: 0;
+}
+.project-p3 li{
+    padding-top: 2px;
+    padding-left: 20px;
+}
+
+
+.nav-logo:hover{
+    text-decoration: none;
+    color: rgb(190, 183, 183);
+    text-shadow: 1px 2px 3px 5px black;
+}
+
+.container-projects {
+    width: 100%;
+}
+
+.container-item-projects .container-item-head{
+    width: 25%;
+}
+
+.container-item-projects .container-item-body{
+    width: 75%;
+}
+
+.container-item-projects{
+    display: flex;
+    margin: 48px;
+}
+
+/* @Meida Responsive Ness */
+
+@media screen and (min-width:950px) {
+     .welcome-card{
+        width: 500px;
+    }
+    
+    /* .welcome{
+        font-size: 50px;
+    }
+    .p-h{
+        font-size: 40px;
+        margin-bottom: 30px;
+    } */ 
+    .container-item-5{
+        padding: 0;
+        margin: 0;
+        background-image: url("back1.jpg");
+        background-size: cover; 
+        background-position: center;
+        height: 88vh;
+        transition: 2s;
+        padding: 50px 10%;
+    }
+    /* nav-items */
+    .navbar-toggle-icon{
+        display: none;
+    }
+    #nav{
+        display: inline-flex;
+    }
+    /* profile */
+    #myImg{
+        width:15%; 
+    }
+    #profile .container-item-2{
+        padding: 50px;
+        padding-left: 200px;
+        
+    }
+    #education .container{
+        display: flex;
+        column-gap: 20px;
+    }
+    /*skills*/
+    #Skills{
+        padding: 0px 50px;
+    }
+
+    #Skills .container-skills{
+        padding: 50px;
+    }
+    /*  college details  */
+    .rgit-img{
+        transform: translate(100%);
+    }
+
+    /* gallery */
+
+    .container-gallary .card{
+        width: 50%;
+        margin: 48px;
+    }
+
+    /* projects */
+}
+@media screen and (min-width:600px) and (max-width:950px) {
+    .container-item-5{
+        padding: 0;
+        margin: 0;
+        background-image: url("back1.jpg");
+        background-size: cover;
+        background-position: center;
+        transition: 2s;
+        height: 100vh;
+        padding: 50px 10% 50px 10%;
+    }
+    
+    .welcome-card{
+        width: 50%;
+        position: absolute;
+        
+    }
+    .welcome{
+        font-size: 50px;
+    }
+    .welcome-main{
+        font-size: 22px;
+    }
+    #Contact{
+        display: block;
+        position: fixed;
+        bottom: 0;
+    }
+    /* nav-items */
+    #nav{
+        width: 100%;
+        display: none;
+        animation: dropdown 2s ;
+        position: relative;
+        right: 0;
+        top: 100%;
+        
+    }
+    .navbar-toggle-icon:hover{
+        text-decoration: none;
+        
+    }
+
+    @keyframes dropdown {
+        from {
+            opacity: 0;
+            transform: translateY(-10px);
+            /* Move the dropdown up a bit */
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+            /* Move the dropdown down to its original position */
+        }
+    }
+    /* profile */
+    #myImg{
+        width:25%; 
+    }
+    #profile .container-item-2{
+        padding: 50px;
+        padding-left: 100px;
+    }
+    /* education */
+    #education .container{
+        
+        column-gap: 20px;
+    }
+    #education .container .card{
+        margin: 30px 100px;
+    }
+    /*  skills  */
+    #Skills .container-skills{
+        transform: translate(50%,-5%);
+        display: inline-block;
+        padding: 10px;
+    }
+
+    /*  college details  */
+    .rgit-img{
+        transform: translate(40%);
+    }
+
+    /* gallery */
+
+    .container-gallary {
+        width: 100%;
+    }
+    .container-gallary .card{
+        margin: 48px;
+    }
+    .container-gallary .card-2{
+        width: 87%;
+    }
+
+    /* projects */
+}
+@media screen and (max-width:600px){
+    .welcome-card{
+        width:cover;
+    }
+    .container-item-5{
+        padding: 0;
+        margin: 0;
+    
+        transition: 2s;
+        background-color: white;
+        background-size: cover;
+        background-position: center;
+    }
+    #contact{
+        display: none;
+        
+    }
+    /* nav-items */
+    #nav{
+        width: 100%;
+        display: none;
+        animation: dropdown 2s ;
+        position: relative;
+        right: 0;
+        top: 100%;
+        
+    }
+    .navbar-toggle-icon:hover{
+        text-decoration: none;
+        
+    }
+    #Contact{
+        display: none;
+    }
+
+    @keyframes dropdown {
+        from {
+            opacity: 0;
+            transform: translateY(-10px);
+            /* Move the dropdown up a bit */
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+            /* Move the dropdown down to its original position */
+        }
+    }
+    /* profile */
+    #profile{
+        overflow: scroll;
+    }
+    #profile .container-item-2{
+        padding: 50px;
+        padding-left: 40px;
+    }
+    #profile .row{
+        margin-bottom: 20px;
+        font-size: small;
+    }
+    #name-sid{
+        font-size: 40px;
+    }
+    #myImg{
+        width: 100px;
+    }
+    /* education */
+    #education .container{
+        display: block;
+        width: 75%;
+    }
+    #education-logo{
+        font-size: 40px;
+        margin-left: -11px;
+        font-weight: 600px;
+        
+    }
+    #education .container .card{
+        padding: 0;
+        margin: 20px 0px;
+    }
+    /* skills */
+
+    #Skills {
+        margin: 0;
+        padding: 0;
+    }
+    .container-skills{
+        display: block;
+        margin: 0;
+    }
+    /*  skills  */
+    .container-skills{
+        padding: 25px;
+    }
+    #Skills .container-skills .card{
+        margin-bottom: 20px;
+    }
+
+    /* expirience */
+
+    .container-item-expirience{
+        display: block;
+        padding: 0px 0px 20px 0px;
+    }
+
+    .container-item-expirience img{
+        width: cover;
+    }
+
+    .container-item-expirience .container-item-head{
+        width: auto;
+    }
+    
+    .container-item-expirience .container-item-body{
+        width: auto;
+    }
+
+    /*  college details  */
+    .rgit-img{
+        height: 100%;
+        width: 100%;
+        transform: translate(15%);
+    }
+    .collegedetails-li{
+        font-size: 20px;
+        margin: 0;
+        padding: 0;
+    }
+    /* gallery */
+
+    #gallary *{
+        width: 100%;
+        padding: 0;
+    }
+
+    .container-gallary {
+        width: 100%;
+    }
+    .container-gallary .card{
+        margin-bottom: 50px;
+    }
+    .container-gallary .card-1{
+        margin-top: 50px;
+    }
+
+    #gallery .close{
+        font-size: 50px;
+        cursor: pointer;
+    }
+
+    /* projects */
+
+    .container-projects {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .container-item-projects .container-item-head{
+        width: auto;
+    }
+    
+    .container-item-projects .container-item-body{
+        width: auto;
+        padding: 20px;
+    }
+
+    .container-item-projects{
+        display: block;
+        margin: 0;
+    }
+
+    .project-cn{
+        font-size: 25px;
+        font-weight: bolder;
+        letter-spacing: 2px;
+        margin-bottom: 20px;
+    }
+    
+    .project-h4{
+        font-size: 20px;
+        font-weight: bolder;
+        margin-bottom: 20px;
+        letter-spacing: 2px;
+    }
+    .project-p1{
+        font-size: 16px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        letter-spacing: 2px;
+    }
+    .project-p3{
+        padding-left: 0;
+    }
+    .project-p3 li{
+        padding-top: 2px;
+        padding-left: 20px;
+    }
+}
